@@ -1,7 +1,7 @@
 SELECT 
-    count(*),
-    count(1),
-    count(idCliente),
-    count(DtCriacao)
+    COUNT(*),
+    COUNT(1),
+    COUNT(idCliente),
+    COUNT(DtCriacao)
 
 FROM clientes
